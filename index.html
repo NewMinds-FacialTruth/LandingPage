@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FacialTruth</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header class="navbar">
+        <h1>FacialTruth</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#product">Producto</a></li>
+                <li><a href="#mission">Enfoque</a></li>
+                <li><a href="#team">¿Quiénes somos?</a></li>
+                <li><a href="#contact">Contáctanos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h2>Tu aliado inteligente para análisis de emociones en tiempo real</h2>
+        <p>Nuestro software automatiza el análisis de gestos faciales, permitiendo decisiones más precisas y efectivas basadas en datos reales de los consumidores.</p>
+        <img src="/assets/facial-analysis.png" alt="Análisis facial" class="hero-image">
+    </section>
+
+    <section id="product" class="product">
+        <h2>Producto</h2>
+        <p>Nuestro producto es una solución innovadora que permite a las empresas analizar emociones de manera precisa en tiempo real, eliminando el sesgo humano. A través del análisis automatizado de gestos faciales, las compañías pueden optimizar sus estrategias de mercado y tomar decisiones más informadas. Esta herramienta garantiza la precisión de los estudios de mercado, mejorando la experiencia del consumidor y ofreciendo datos más confiables.</p>
+    </section>
+
+    <section id="mission" class="mission">
+        <h2>Enfoque</h2>
+        <div class="focus-container">
+            <div class="focus-item">
+                <h3>Misión</h3>
+                <p>Eliminar el sesgo humano en la investigación de mercados, proporcionando a las empresas datos precisos y objetivos para tomar decisiones mejor informadas.</p>
+                <img src="/assets/mission-image.png" alt="Misión">
+            </div>
+            <div class="focus-item">
+                <h3>Visión</h3>
+                <p>Ser la herramienta líder en el análisis automatizado de emociones, ayudando a empresas a comprender y anticipar las necesidades de sus consumidores en todo el mundo.</p>
+                <img src="/assets/vision-image.png" alt="Visión">
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="team">
+        <h2>¿Quiénes somos?</h2>
+        <div class="team-container">
+            <img src="/assets/team1.png" alt="Christian Zeta">
+            <img src="/assets/team2.png" alt="Alonso Robles">
+            <img src="/assets/team3.png" alt="Erick Urbizagastegui">
+            <img src="/assets/team4.png" alt="Andrés Doig">
+            <img src="/assets/team5.png" alt="Damaris Tasayco">
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contáctanos</h2>
+        <p>FacialTruth</p>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Nombre" required>
+            <input type="email" id="email" placeholder="Correo Electrónico" required>
+            <textarea id="message" placeholder="Mensaje" required></textarea>
+            <h1></h1>
+            <button type="submit">Enviar</button>
+        </form>
+        <p id="responseMessage"></p>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 FacialTruth. Todos los derechos reservados.</p>
+            <div class="social-links">
+                <a href="#" class="social-button instagram">
+                    <i class="fa fa-instagram"></i> Instagram
+                </a>
+                <a href="https://github.com/NewMinds-FacialTruth" class="social-button github">
+                    <i class="fa fa-github"></i> GitHub
+                </a>
+            </div>
+        </div>
+    </footer>
+    
+
+    <script src="scripts.js"></script>
+</body>
+</html>
